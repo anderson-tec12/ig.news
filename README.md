@@ -34,3 +34,31 @@ Em modo de desenvolvimento permite fazer simulações.
 </p>
 <a href="https://prismic.io/" blank="_target">prismic</a>
 
+
+## Rodando projeto 
+
+#### .env.local
+
+<code>//STRIPE
+STRIPE_API_KEY = Chave da api do stripe
+STRIPE_KEY= chave do stripe
+STRIPE_SUCCESS_URL=http://localhost:3000/posts
+STRIPE_CANCEL_URL=http://localhost:3000/
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY= Chave publica de conexão com o stripe
+
+//github
+GITHUB_CLIENT_ID= id  de libração do git
+GITHUB_CLIENT_SECRET=chave de itegração com o git
+
+Fauna DB
+FAUNADB_KEY= chave do fauna
+
+JWT
+SIGNINGKEY= gere uma senha qualquer 
+
+
+PRISMIC 
+PRISMIC_CLIENT_ID= ID de acesso ao prismic
+PRISMIC_ENDPOINT=Link da api do projeto 
+PRISMIC_ACCESS_TOKEN=Token de acesso
+</code>
