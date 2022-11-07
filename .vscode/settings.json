@@ -1,0 +1,95 @@
+{
+	//ESLINT
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll": true
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]" : {
+		"editor.formatOnSave" : true
+	},
+	"[typescript]" : {
+		"editor.formatOnSave" : true
+	},
+	"[typescriptreact]" : {
+		"editor.formatOnSave" : true
+	},
+	"[json]" : {
+		"editor.formatOnSave" : true
+	},
+	// ###########
+
+	// styles
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [80,120],
+	"editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+
+  "explorer.compactFolders": false,
+
+	"workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.colorTheme": "Omni",
+	"workbench.editor.labelFormat": "short",
+
+	// "window.menuBarVisibility": "toggle",
+
+	"breadcrumbs.enabled": true,
+
+	"extensions.ignoreRecommendations": true,
+
+	"javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+	"files.associations": {
+		".sequelizerc": "javascript",
+		".stylelintrc": "json",
+		".prettierrc": "json",
+		"*.tsx": "typescriptreact"
+	},
+
+	"material-icon-theme.folders.associations": {
+		"infra": "app",
+		"entities": "class",
+		"domain": "class",
+		"schemas": "class",
+		"typeorm": "database",
+		"repositories": "mappings",
+		"http": "container",
+		"migrations": "tools",
+		"modules": "components",
+		"implementations": "core",
+		"dtos": "typescript",
+		"fakes": "mock",
+		"websockets": "pipe",
+		"protos": "pipe",
+		"grpc": "pipe",
+		"providers": "include",
+		"subscribers": "messages",
+		"useCases": "controller",
+		"kafka": "scripts",
+		"mappers": "meta",
+		"_shared": "shared",
+		"eslint-config": "tools",
+		"kube": "kubernetes"
+	},
+
+	"material-icon-theme.files.associations": {
+		"ormconfig.json": "database",
+		"tsconfig.json": "tune",
+		"*.proto": "3d",
+		"*.webpack.js": "webpack"
+	},
+
+	"material-icon-theme.activeIconPack": "nest",
+	"screencastMode.onlyKeyboardShortcuts": true,
+
+	"emmet.syntaxProfiles":{"javascript":"jsx"},
+	"emmet.includeLanguages":{"javascript":"javascriptreact"}
+}
